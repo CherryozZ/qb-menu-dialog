@@ -1,3 +1,5 @@
+QBCore = exports['qb-core']:GetCoreObject()
+
 Citizen.CreateThread(function()
 	local Timeouts, OpenedMenus, MenuType = {}, {}, 'dialog'
 	local openMenu = function(namespace, name, data)
